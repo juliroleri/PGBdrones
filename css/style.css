@@ -177,6 +177,16 @@ button:hover{
     transform: scale(1.1);
 }
 
+#botonContacto{
+  font-style:normal;
+  text-decoration: none;
+  color: black;
+}
+
+#botonContacto:hover{
+  color: white;
+}
+
 .animacion {
     opacity: 0;
     transform: translateY(100px);
