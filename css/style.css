@@ -114,12 +114,22 @@ nav ul li a:hover {
 }
 
 #seccion1{
-    background-image: url(../videos/autopista1.mp4);
-    background-size: cover;
+    position: relative;
+    overflow: hidden;
     width: 100%;
     height: 950px;
     margin: 0px;
     padding: 9% 20%;
+}
+
+#videoFondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 #seccion1Titulo{
@@ -799,4 +809,9 @@ footer ul li a:hover {
     #footerRedes {
       gap: 25px;
     }
+
 }
+  
+
+
+
