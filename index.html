@@ -15,7 +15,7 @@
 
 <header>
     <nav>
-        <img id="PGBlogoNav" src="../imagenes/PGBlogoSinFondo.png" alt="logoPGBblack">
+        <img id="PGBlogoNav" src="../imagenes/logoPGB_fondo_negro_trans.png" alt="logoPGBblack">
         <ul class="menuPrincipal menu" id="menu">
             <li><a href="#seccionServicios">Quienes somos</a></li>
             <li><a href="#typeService">Servicios</a></li>
@@ -38,7 +38,7 @@
       </video>
     
     <div id="seccion1Titulo">
-        <img class="PGBlogoBlack" src="../imagenes/PGBlogoBlack.png" alt="logoPGBblack">
+        <img class="PGBlogoBlack" src="../imagenes/logoPGB_fondo_negro_trans.png" alt="logoPGBblack">
         <div>
             <h1 id="titulo1">Trabajos aéreos con tecnología de drones de última generación. Llevamos la fotografía y el video a otro nivel.</h1>
             <button><a id= "botonContacto" href="#contactanos">CONTACTANOS</a></button>
@@ -90,7 +90,7 @@
                     la tecnología dron.</p>
             </div>
             <div class="service-item">
-                <img class="fotoServicio" src="../imagenes/img_monitoreo_seg.jpeg" alt="">
+                <img class="fotoServicio" src="../imagenes/camara_termica.jpg" alt="">
                 <p class="titulo-item">Análisis con cámara térmica.</p>
                 <p>Tecnología de visión térmica para la búsqueda y rescate de personas en operativos de seguridad. 
                    Inspecciones de tendidos eléctricos de alta y baja tensión.
@@ -134,26 +134,21 @@
         </p>
 </section>
 
-<section id="seccionTrabajos">
-<h2>Volvé realidad todas tus ideas.</h2>
-<h1>Conocé nuestros trabajos.</h1>
-  <div class="galeria-wrapper">
-    <button class="flecha izquierda" id="btnIzquierda" >❮</button>
-    
-    <div class="galeria-container" id="galeria">
-      <div class="galeria">
-        <div class="imagen"><img src="../imagenes/WhatsApp Image 2025-01-22 at 12.32.19.jpeg" alt="Imagen 1"></div>
-        <div class="imagen"><img src="../imagenes/WhatsApp Image 2025-03-13 at 16.32.49 (2).jpeg" alt="Imagen 2"></div>
-        <div class="imagen"><img src="../imagenes/WhatsApp Image 2025-03-13 at 16.32.48 (1).jpeg" alt="Imagen 3"></div>
-        <div class="imagen"><img src="../imagenes/WhatsApp Image 2025-01-22 at 12.32.19.jpeg" alt="Imagen 4"></div>
-        <div class="imagen"><img src="../imagenes/WhatsApp Image 2025-03-13 at 16.30.59.jpeg" alt="Imagen 5"></div>
-        <div class="imagen"><img src="../imagenes/WhatsApp Image 2025-03-13 at 16.32.49 (2).jpeg" alt="Imagen 6"></div>
-      </div>
-    </div>
-
-    <button class="flecha derecha" id="btnDerecha" >❯</button>
-  </div>
-</section>
+    <section id="seccionTrabajos" class="imagenTrabajos">
+        <h2>Volvé realidad todas tus ideas.</h2>
+        <h1>Conocé nuestros trabajos.</h1>
+        <ul id="galeriaTrabajos" class="galeria">
+            <li class="foto"><a href="../imagenes/lago_espejo.jpeg" target="_blank"><img src="../imagenes/lago_espejo.jpeg" alt=""></a></li>
+            <li class="foto"><a href="../imagenes/WhatsApp Image 2025-03-13 at 16.32.48 (1).jpeg" target="_blank"><img src="../imagenes/WhatsApp Image 2025-03-13 at 16.32.48 (1).jpeg" alt=""></a></li>
+            <li class="foto"><a href="../imagenes/WhatsApp Image 2025-03-13 at 16.30.59.jpeg" target="_blank"><img src="../imagenes/WhatsApp Image 2025-03-13 at 16.30.59.jpeg" alt=""></a></li>
+            <li class="foto"><a href="../imagenes/WhatsApp Image 2025-03-13 at 16.32.47.jpeg" target="_blank"><img src="../imagenes/WhatsApp Image 2025-03-13 at 16.32.47.jpeg" alt=""></a></li>
+            <li class="foto"><a href="../imagenes/WhatsApp Image 2025-03-13 at 16.30.00.jpeg" target="_blank"><img src="../imagenes/WhatsApp Image 2025-03-13 at 16.30.00.jpeg" alt=""></a></li>
+            <li class="foto"><a href="../imagenes/WhatsApp Image 2025-03-13 at 16.32.50.jpeg" target="_blank"><img src="../imagenes/WhatsApp Image 2025-03-13 at 16.32.50.jpeg" alt=""></a></li>
+            <li class="foto"><a href="../imagenes/WhatsApp Image 2025-03-13 at 16.32.49.jpeg" target="_blank"><img src="../imagenes/WhatsApp Image 2025-03-13 at 16.32.49.jpeg" alt=""></a></li>
+            <li class="foto"><a href="../imagenes/WhatsApp Image 2025-01-22 at 12.31.19.jpeg" target="_blank"><img src="../imagenes/WhatsApp Image 2025-01-22 at 12.31.19.jpeg" alt=""></a></li>
+            <li class="foto"><a href="../imagenes/WhatsApp Image 2025-01-22 at 12.31.53.jpeg" target="_blank"><img src="../imagenes/WhatsApp Image 2025-01-22 at 12.31.53.jpeg" alt=""></a></li>
+        </ul>
+    </section>
 
 <section id="contactanos">
     <h2 id="titulo2Contacto"> Asesoramiento personalizado y presupuesto. </h2>
@@ -183,7 +178,7 @@
 </section>
 
 <footer>
-    <img src="../imagenes/logoPGB_negro.png" alt="logoPGBblack">
+    <img id="logoFooter" src="../imagenes/logoPGB_negro.png" alt="logoPGBblack">
     <ul>
         <li><a href="" class="itemIzquierda">Home</a></li>
         <li> <a href="#seccionServicios">Servicios</a></li>
